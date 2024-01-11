@@ -1,3 +1,4 @@
 # serendipity_health
 
-A new Flutter project.
+Team Serendipity
+Team yang bertujuan memecahkan masalah gizi dengan membuat sebuah sistem
