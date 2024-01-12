@@ -94,38 +94,66 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: NavigationBar(
+        destinations: [
+          NavigationDestination(
+            icon: Icon(Icons.home),
+            label: 'Beranda',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.local_fire_department),
+            label: 'Cek Kalori',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.list_alt),
+            label: 'Artikel',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.apple),
+            label: 'Program Diet',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.person),
+            label: 'Akun',
+          ),
+        ],
+        selectedIndex: 0,
+        onDestinationSelected: (value) {
+          print('selected: $value');
+        },
+      ),
       body: Column(
         children: [
-          SafeArea(
-            child: NavigationBar(
-              destinations: [
-                NavigationDestination(
-                  icon: Icon(Icons.home),
-                  label: 'Beranda',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.local_fire_department),
-                  label: 'Cek Kalori',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.list_alt),
-                  label: 'Artikel',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.apple),
-                  label: 'Program Diet',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.person),
-                  label: 'Akun',
-                ),
-              ],
-              selectedIndex: 0,
-              onDestinationSelected: (value) {
-                print('selected: $value');
-              },
-            ),
-          ),
+          // SafeArea(
+          //   child: NavigationBar(
+          //     destinations: [
+          //       NavigationDestination(
+          //         icon: Icon(Icons.home),
+          //         label: 'Beranda',
+          //       ),
+          //       NavigationDestination(
+          //         icon: Icon(Icons.local_fire_department),
+          //         label: 'Cek Kalori',
+          //       ),
+          //       NavigationDestination(
+          //         icon: Icon(Icons.list_alt),
+          //         label: 'Artikel',
+          //       ),
+          //       NavigationDestination(
+          //         icon: Icon(Icons.apple),
+          //         label: 'Program Diet',
+          //       ),
+          //       NavigationDestination(
+          //         icon: Icon(Icons.person),
+          //         label: 'Akun',
+          //       ),
+          //     ],
+          //     selectedIndex: 0,
+          //     onDestinationSelected: (value) {
+          //       print('selected: $value');
+          //     },
+          //   ),
+          // ),
           Expanded(
             child: Container(
               color: Theme.of(context).colorScheme.primaryContainer,
