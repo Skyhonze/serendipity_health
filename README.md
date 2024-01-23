@@ -1,7 +1,7 @@
 # serendipity_health
 
 ![Serendipity_Primary](https://github.com/Skyhonze/serendipity_health/assets/103993379/f965d994-c1e8-4100-8faa-30f1385469cb)
-https://github.com/Skyhonze/serendipity_health/assets/103993379/f75798e5-676e-4a30-be1c-a7da0d953db6
+![Serendipity-Health](https://github.com/Skyhonze/serendipity_health/assets/103993379/f75798e5-676e-4a30-be1c-a7da0d953db6)
 
 Team Serendipity
 Merupakan team yang dibentuk atas kesadaran akan permasalahan yang timbul di dunia, dengan mengacu pada Sustainable Development Goals, kami melakukan inovasi yang salah satunya adalah Serendipity-Health.
