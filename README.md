@@ -14,7 +14,7 @@ SDG 3: Good Health and Well-Being: The Problem of Malnutrition
    recognizing the need of preserving the body as soon as possible in light of the still-high rates of stunting and malnutrition in Indonesia.
 
 
-SDG 12: Ethical Production and Consumption: Ethical Treatment of Food Waste
+SDG 12: Responsible Production and Consumption: Ethical Treatment of Food Waste
    Since many users are aware of how much food they can fit in their stomachs, they will be more mindful of what they eat and prevent food waste from increasing.
 
 SDG 13 Climate Action: Diminish the Earth's Impact!
